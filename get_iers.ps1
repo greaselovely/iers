@@ -15,7 +15,7 @@ $File2 = "finals.daily"
 # Ordered dictionary:
 $URLs = [Ordered]@{$File1="https://datacenter.iers.org/data/latestVersion/bulletinA.txt"; $File2="https://datacenter.iers.org/data/latestVersion/finals.daily.iau1980.txt"}
 #
-$OutPath = "$Env:homeshare\RedirectedData\Desktop\IERS"
+$OutPath = "$Env:homeshare\Desktop\IERS"
 $ArchivePath = "$OutPath\archive"
 $LogFile = "$OutPath\_iers.log"
 #
